@@ -1,4 +1,6 @@
 # Bras_Robot_4DDL
+
+Simulation et contrôle le bras robotique avec MATLAB, Simulink et Simscape Multibody
 ![Bras4ddl](https://user-images.githubusercontent.com/46745468/146089247-a5815b74-6f4e-446c-b6c0-c4044bb0ba2c.png)
 
 
