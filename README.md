@@ -37,7 +37,7 @@ Cette partie montre comment utiliser looptune pour régler un PID contrôleur mu
 
 Le contrôleur se compose de quatre contrôleurs PID (un par joint). Chaque régulateur PID est implémenté à l'aide du bloc "2-DOF PID Controller" de la librairie Simulink
 
-![2](https://user-images.githubusercontent.com/46745468/146236250-670b3c7e-e028-4491-9301-d347f8c37a42.png)
+![2](https://user-images.githubusercontent.com/46745468/146244031-e416ff33-4f0b-4c17-983d-10f4644e22db.png)
 
 En règle générale, ces contrôleurs multi-boucles sont réglés séquentiellement en réglant une boucle PID à la fois et en parcourant les boucles jusqu'à ce que le comportement global soit satisfaisant. Ce processus peut prendre du temps et il n'est pas garanti qu'il converge vers le meilleur réglage global. Vous pouvez également utiliser systune ou looptune pour régler conjointement les quatre boucles PID en fonction des exigences au niveau du système telles que le temps de réponse et le couplage croisé minimum.
 
